@@ -1,0 +1,3 @@
+// this .get("/") is a decorator that tells FastAPI that the function read_root() is to be registered as a GET endpoint at the root URL ("/"). 
+When a client sends a GET request to the root URL, 
+FastAPI will call the read_root() function and return its response.*\
